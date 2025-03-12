@@ -1,5 +1,5 @@
-from flask import Flask, render_template, request
-from init import app
+from flask import render_template, request
+from app import app
 
 # Landing page
 @app.route('/')
